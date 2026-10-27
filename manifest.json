@@ -1,0 +1,16 @@
+{
+  "name": "ESP32 Emotion Ultra",
+  "version": "2026.10.0",
+  "home_assistant_domain": "esphome",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "https://raw.githubusercontent.com/triconstudio/doco_firmware_releases/main/esp32_emotion_ultra.bin",
+        "md5": "a8cf4d7efdfe87737204e827cf6c493e",
+        "summary": "Initial release with Native UpdateEntity and Hello Doco wake word model",
+        "release_url": "https://github.com/triconstudio/doco_firmware_releases/releases"
+      }
+    }
+  ]
+}
